@@ -86,5 +86,5 @@ def main():
     structure = fetch_repo_structure(repo_name)
     store_in_mongodb(repo_name, structure)
 
-if _name_ == '_main_':
-    main()
+if __name__ == '__main__':
+    main()
