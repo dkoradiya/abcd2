@@ -82,7 +82,7 @@ def store_in_mongodb(repo_name, structure):
     print('Repository structure stored successfully')
 
 def main():
-    repo_name = 'lab-1'  # Specify your repository name
+    repo_name = 'abcd2'  # Specify your repository name
     structure = fetch_repo_structure(repo_name)
     store_in_mongodb(repo_name, structure)
 
